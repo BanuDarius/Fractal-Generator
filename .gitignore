@@ -1,0 +1,13 @@
+# Virtual environment folders
+venv/
+gradio_env/
+
+# Gradio cache/folders
+.gradio/
+
+# Executable binaries
+fractals
+
+# Output image files
+*.ppm
+*.png
