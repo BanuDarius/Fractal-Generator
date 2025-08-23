@@ -21,10 +21,10 @@ Developed a fractal generator that combines efficient C implementations of mathe
 - Allows setting the number of iterations for fractal generation
 
 - Implements iteration limit optimization:
-  - To balance performance and visual quality, the program caps the number of iterations for certain fractals because beyond that level the image looks essentially the same.
-  - The Sierpinski Triangle’s Chaos Game method does not use iteration capping, allowing for more detailed and efficient rendering.
+  - To balance performance and visual quality, the program caps the number of iterations for certain fractals because beyond that level the image looks essentially the same
+  - The Sierpinski Triangle’s Chaos Game method does not use iteration capping, allowing for more detailed and efficient rendering
 
-- Outputs fractals as PPM image files, which are then loaded and converted by the Python GUI using the Pillow library for seamless visualization within Gradio.
+- Outputs fractals as PPM image files, which are then loaded and converted by the Python GUI using the Pillow library for seamless visualization within Gradio
 
 - Provides a user-friendly GUI for easy parameter input and visualization
 
