@@ -1,13 +1,9 @@
 # Virtual environment folders
 venv/
 gradio_env/
+output/
+bin/
+build/
 
 # Gradio cache/folders
 .gradio/
-
-# Executable binaries
-fractals
-
-# Output image files
-*.ppm
-*.png
