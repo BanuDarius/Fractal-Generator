@@ -49,9 +49,9 @@ Developed a fractal generator that combines efficient C implementations of mathe
 
 ## Usage
 
-### 1. Compile the C file:
+### 1. Compile with Make:
    ```bash
-   gcc fractals.c -o fractals
+   make
    ```
 ### 2. Run the Python script:
    ```bash

@@ -16,14 +16,14 @@ def generate_fractal(fractal_type, iterations, color, width, height, cx, cy):
 
     input_data = f"{fractal_key}\n{iterations}\n{color}\n{width}\n{height}\n{cx}\n{cy}"
     proc = subprocess.run(
-        ['./fractals'],
+        ['bin/fractals'],
         input=input_data,
         text=True,
         capture_output=True
     )
     print(proc.stdout)
 
-    filename = f"{fractal_key}.ppm"
+    filename = f"output/{fractal_key}.ppm"
     img = Image.open(filename)
     return img
 
